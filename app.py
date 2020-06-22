@@ -1,5 +1,5 @@
 #!flask/bin/python
-from flask import Flask, jsonify, make_response, url_for
+from flask import Flask, jsonify, make_response, url_for, abort
 import random
 
 app = Flask(__name__)
@@ -120,14 +120,13 @@ def home():
     '''
 
 
-def Convert(lst):
-    res_dct = {lst[i]: lst[i + 1] for i in range(0, len(lst), 2)}
-    return res_dct
-
-
 @app.route('/api/word/<int:phonem_id>', methods=['GET'])
 def get_word(phonem_id):
+
     word = [word for word in words if word['id'] == phonem_id]
+    if len(word) == 0:
+        abort(404)
+
     return_word = random.choice(word[0]['words'])
     print('Returning word: ' + return_word)
     return jsonify({'status': 'ok', 'word': return_word, 'URI': url_for('get_word', phonem_id=phonem_id, _external=True)})
