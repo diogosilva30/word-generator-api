@@ -16,7 +16,7 @@ words = [
     },
     {
         'id': 3,
-        'words': ['tênis', 'tesoura', 'tapete', 'presente', 'porta', 'prato']
+        'words': ['ténis', 'tesoura', 'tapete', 'presente', 'porta', 'prato']
     },
     {
         'id': 4,
