@@ -12,7 +12,7 @@ words = [
     },
     {
         'id': 2,
-        'words': ['banana', 'bicicleta', 'bola', 'cabelo', 'bebê', 'rabo']
+        'words': ['banana', 'bicicleta', 'bola', 'cabelo', 'bebé', 'rabo']
     },
     {
         'id': 3,
