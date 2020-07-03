@@ -40,7 +40,7 @@ words = [
     },
     {
         'id': 9,
-        'words': ['sofá', 'sapo', 'sapato', 'bicicleta', 'vassoura', 'coração', 'escada', 'espelho', 'estrela', 'tênis', 'óculos', 'lápis']
+        'words': ['sofá', 'sapo', 'sapato', 'bicicleta', 'vassoura', 'coração', 'escada', 'espelho', 'estrela', 'ténis', 'óculos', 'lápis']
     },
     {
         'id': 10,
@@ -60,7 +60,7 @@ words = [
     },
     {
         'id': 14,
-        'words': ['nariz', 'nuvem', 'navio', 'banana', 'tênis', 'chinelo']
+        'words': ['nariz', 'nuvem', 'navio', 'banana', 'ténis', 'chinelo']
     },
     {
         'id': 15,
